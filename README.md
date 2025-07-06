@@ -122,8 +122,8 @@ A full-stack E-Commerce application with a modern responsive frontend, secure ba
 ## 🔨 Setup Instructions
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/ecommerce-app.git
-cd ecommerce-app
+git clone https://github.com/Nitishkumar8521/E-Commerce.git
+cd E-Commerce
 ```
 ### 2. Setup Backend
 ```bash
@@ -144,4 +144,55 @@ npm run dev
 
 - Middleware for verifying user roles
 
+## 🔁 API Routes (Backend)
+
+### 🔐 User Routes
+| Method | Endpoint                | Description          |
+|--------|-------------------------|----------------------|
+| POST   | /api/user/register      |  Register a new user |
+| POST   | /api/user/login         |  Login and get token |
+| POST   | /api/user/admin         |  For admin           |
+
+### 📝 Product Routes
+| Method |    Endpoint         | Description         |
+|--------|---------------------|---------------------|
+| POST   | /api/product/add    | Create new product  |
+| POST   | /api/product/remove | Delete a product    |
+| POST   | /api/product/single | Get a single product|
+| GET    | /api/product/list   | Get all the product |
+
+### 📝 Order Routes
+| Method |    Endpoint               |    Description         |
+|--------|---------------------------|------------------------|
+| POST   | /api/order/list           | Get all orders         |
+| POST   | /api/order/status         | Get order staus        |
+| POST   | /api/order/place          | Place the order        |
+| POST   | /api/order/stripe         | Implement stripe       |
+| POST   | /api/order/razorpay       | Implement razorpay     |
+| POST   | /api/order/userorders     | Get a single user order|
+| GET    | /api/order/verifyStripe   | Get all the product    |
+
+### 🛒  cart Routes
+| Method |    Endpoint       | Description         |
+|--------|-------------------|---------------------|
+| POST   | /api/cart/add     | Add product to cart |
+| POST   | /api/cart/get     | Get the cart data   |
+| POST   | /api/cart/update  | Update the cart     |
+
+### 🌐Deployment
+
+You can access the live project here:
+
+[🔗Frontend Live Demo](https://e-commerce-7fj4.vercel.app/)
+[🔗Admin panel Live Demo](https://forever-admin-nine-delta.vercel.app/)
+
+### Future Enhancements
+
+- Add razorpay payment gateway
+
+- Improve accessibility features
+
+### Author
+
+Developed by **Nitish Kumar Singh.** Feel free to contribute or provide feedback!
 
