@@ -186,13 +186,36 @@ You can access the live project here:
 [🔗Frontend Live Demo](https://e-commerce-7fj4.vercel.app/)
 [🔗Admin panel Live Demo](https://forever-admin-nine-delta.vercel.app/)
 
-### Future Enhancements
+### 📸 Screenshots
+#### 🛠 Admin Panel
+- ##### ➕ Add Product
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/admin%20add%20product.jpg?raw=true)
+
+- ##### 📋 Product List
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/admin%20list%20of%20product.jpg?raw=true)
+
+- ##### 📦 Order List
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/admin%20order%20list.jpg?raw=true)
+
+#### 🛠 User Panel
+- ##### 🧍 Landing Page
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/User%20landing%20page.jpg?raw=true)
+- ##### 🛍️ Product Collections with filter and sorting
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/All%20collection%20with%20filter%20and%20sorting.jpg?raw=true)
+- ##### 📦 Product Details Page
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/Single%20product%20page%20.jpg?raw=true)
+- ##### 🔍 Search Functionality
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/search%20functionality.jpg?raw=true)
+- ##### 💳 Stripe Payment Gateway
+![App Screenshot](https://github.com/Nitishkumar8521/E-Commerce/blob/main/admin/src/assets/stripe%20payment%20gatway.jpg?raw=true)
+
+### 📚Future Enhancements
 
 - Add razorpay payment gateway
 
 - Improve accessibility features
 
-### Author
+### 👤Author
 
 Developed by **Nitish Kumar Singh.** Feel free to contribute or provide feedback!
 
